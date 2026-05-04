@@ -1,7 +1,7 @@
 # Remote-Trashcan
 A normal trashcan that can be controlled via remote control. Created by me who find it annoying to get out of bed to dump trash
 
-⚡ Electrical Systems
+⚡ ELECTRICAL SYSTEMS
 
 This project implements a remote-controlled trash can lid using an infrared (IR) communication system and a servo motor for mechanical actuation. An IR receiver module is used to detect signals from a handheld remote and send them to an Arduino Uno for processing.
 
@@ -20,13 +20,13 @@ Power and signal connections between the Arduino, IR module, and servo
 The servo motor provides enough torque to reliably move the lid, while the IR module enables wireless control without physical contact.
 
 
-💻 Software
+💻 SOFTWARE
 
 The system is programmed in C++ using the Arduino IDE. The software reads IR signals from the remote and controls the servo motor based on the received commands.
 
 Key features:
 
-IR signal decoding to detect specific remote button presses 
+IR signal decoding hexadecimal code to detect specific remote button presses 
 Mapping of remote inputs to actions (open and close lid)
 Servo control using PWM signals to adjust position
 Simple and modular code structure for easy modification
